@@ -1,5 +1,5 @@
 # notshipped
-APDFL, DLE and PDFJT samples; Derived from demos, blogs or other sources
+PDFJT samples; Derived from demos, blogs or other sources
 
 -- RasterizePages.java * Converts PDF to PNG. PDFJT v8.2 version of the earlier v4.2 code sample; Place in \samples\images
 
