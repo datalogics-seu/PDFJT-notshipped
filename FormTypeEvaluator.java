@@ -34,7 +34,7 @@ public final class FormTypeEvaluator {
     public static final String inputDir = "src/main/resources/com/datalogics/pdf/samples/forms/";
     public static final String[] testForm = { "testNoForm.pdf",
         "testAcroform.pdf", "testXFAStatic.pdf", "testXFADynamic.pdf" };
-    
+
     /**
      * This is a utility class, and won't be instantiated.
      */
@@ -57,13 +57,7 @@ public final class FormTypeEvaluator {
         LicenseManager.setLicensePath(".");
 
         URL inputUrl = null;
- /*
-        if (args.length > 0) {
-            inputUrl = IoUtils.createUrlFromPath(args[0]);
-        } else {
-            inputUrl = IoUtils.createUrlFromPath(INPUT_ENABLED_PDF_PATH);
-        }
-*/
+
         if (args.length > 0) {
             for (int i = 0; i < args.length; i++) {
                 inputUrl = IoUtils.createUrlFromPath(args[i]);
