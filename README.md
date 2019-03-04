@@ -13,6 +13,6 @@ PDFJT samples -- Derived from demos, blogs or other sources
 
 ** RemoveUsageRights.java * Removes Usage Rights aka Reader Extensions. v8.10 adaptation of v4.2 sample; Place in \samples\signature.  RELite cannot process PDFs that already have usage rights
 
-** SplitPDF.java * Demonstrates spliting a PDF document by page intervals (every n pages) and by bookmarks using the PMMservice. v8.14 sample can be placed in \samples\manipulation. 
+** SplitDocument.java * Demonstrates spliting a PDF document by page intervals (every n pages) and by bookmarks using the PMMservice. v8.14 sample can be placed in \samples\manipulation. 
 
 
