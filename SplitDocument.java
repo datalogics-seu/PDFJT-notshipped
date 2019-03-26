@@ -24,9 +24,8 @@ import java.net.URL;
 import java.util.ArrayList;
 
 /**
- * This sample shows how to split a PDF document. The output PDF will be saved with the linearization option
- *
- *
+ * This sample shows how to split a PDF document by a specific page interval (e.g. every 3 pages) or by the bookmark
+ * (outline) tree, if any. The output PDF will be saved with the linearization option
  */
 public final class SplitDocument {
 
@@ -68,7 +67,7 @@ public final class SplitDocument {
     }
 
     /**
-     * Split the input document, each page to a separate document file.
+     * Split the input document, each interval of pages to a separate document file.
      *
      * @param outputUrl the path to the file to contain the output document
      * @throws Exception a general exception was thrown
@@ -116,9 +115,6 @@ public final class SplitDocument {
         final URL sourceDocumentUrl = SplitDocument.class.getResource(FIRST_DOCUMENT);
         PDFDocument sourceDocument = null;
         sourceDocument = DocumentUtils.openPdfDocument(sourceDocumentUrl);
-        /*
-         * final URL targetUrl = null; final String targetPath = ""; final int pageNum = -1;
-         */
 
         final PDFBookmarkRoot bkRoot = sourceDocument.requireCatalog().getBookmarkRoot();
         System.out.println("bookmark count: " + bkRoot.getCount());
