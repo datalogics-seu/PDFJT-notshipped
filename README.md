@@ -11,6 +11,9 @@ PDFJT samples -- Derived from demos, blogs or other sources
 
 ** ListUsageRights.java - Lists usage rights in a PDF. Useful for testing Acrobat enabled features. Place in \samples\signature.  
 
+** QueryAnnotations.java - Iterates through the annotations in a PDF document, listing the subtype of each annotation.
+ If the Annotation is a Link Annotation, the URI (web address) is printed if available. If the Annotation is a Widget Annotation, the OnCursorEnter action is printed, such as moving to a different page in the document.  8.14 update of the v6.3.6 sample. Place in \samples\manipulation. Looks for AllAnnotations.pdf in top level \samples folder. 
+
 ** RasterizePages.java - Converts PDF to PNG. v8.2 adaptation of v4.2 sample; Place in \samples\images
 
 ** RemoveUsageRights.java * Removes Usage Rights aka Reader Extensions. v8.10 adaptation of v4.2 sample; Place in \samples\signature.  RELite cannot process PDFs that already have usage rights
