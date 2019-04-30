@@ -1,6 +1,8 @@
 # notshipped
 PDFJT samples -- Derived from demos, blogs or other sources
 
+** AllCommentAnnotations.java - Creates a PDF with various comment annotations (Sticky Notes (with different icons) , Highlight, Underline,  Strikeout, Caret, FreeText (Typewriter, Text Box, Text Callout w arrow), Ink/Free Form Draw, Stamp, Line/Arrow, Rectangle, Circle). 8.14 update from JG blog https://blogs.datalogics.com/2016/06/29/creating-comment-annotations-using-the-datalogics-pdf-java-toolkit/.  Place in \samples\manipulation. Will create AllAnnotations.pdf in top level \samples folder. 
+
 ** CreatePDFPackage.java - Creates a PDF Package / Portfolio with 3 embedded PDFs (place input files in toplevel \samples). v8.2 adaptation of v4.2 sample; Place in \samples\creation.
 
 ** CreatePDFPackageWithNavigator.java - Creates a PDF Package / Portfolio with embedded PDFs that utilizes a flash Navigator. v8.2 adaptation of v4.2 sample;  Place in \samples\creation.
