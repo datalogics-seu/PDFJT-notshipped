@@ -20,4 +20,6 @@ PDFJT samples -- Derived from demos, blogs or other sources
 
 ** SplitDocument.java * Demonstrates spliting a PDF document by page intervals (every n pages) and by bookmarks using the PMMservice. v8.14 sample can be placed in \samples\manipulation. 
 
+** XFAFormExportDemo.java * This sample illustrates how to export form field data from an XFA PDF by extracting the <datasets> out of the XML. v8.16 sample updated from v4.2 sample.  Can be placed in \samples\forms. 
+
 
